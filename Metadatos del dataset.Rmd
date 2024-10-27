@@ -1,0 +1,30 @@
+---
+title: "Metadatos acerca del dataset"
+author: "Edurne"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Metadatos del dataset
+
+## Descripción general
+
+Este conjunto de datos contiene mediciones de 142 metabolitos en 12 muestras intestinales humanas antes y después de un transplante.
+
+## Fuente
+- **Fuente**: Repositorio GitHub proporcionado, originalmente de Metabolomics Workbench
+- **Project ID**: PR000002
+- **DOI**: 10.21228/M8WC7D
+
+## Detalles de las muestras
+- **Total de Muestras**: 12
+- **Variables (Metabolitos)**: 142
+- **Grupos**: "Antes" (muestras B) y "Después" (muestras A)
+
+## Preparación de los datos
+- Se eliminó la primera fila de metadatos.
+- Se ajustaron las etiquetas de grupo y se convirtieron los datos en formato numérico.
+
+## Herramientas
+- **Lenguaje**: R
+- **Paquetes**: Bioconductor, SummarizedExperiment
